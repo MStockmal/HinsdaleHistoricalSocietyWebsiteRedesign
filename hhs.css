@@ -1,0 +1,257 @@
+
+body {
+	font-family: 'Roboto', "Helvetica Neue", sans-serif;
+	line-height: 1.5;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	
+}
+.logo {
+	float: left;
+	padding-left: 30px;
+	position: relative;
+	z-index: 10
+}
+nav {
+	float: left;
+	height: 55px;
+	width: 730px;
+}
+nav a:link {
+	float: left;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	margin: 20px;
+	color: black;
+}
+nav a:hover {
+	border: 1px solid #BEA17B;
+	padding: 0px 2px;
+}
+nav a:visited {
+	color: black;
+}
+nav a:active {
+	color: black;
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 20px;
+}
+.banner {
+	margin-top: -120px;
+	width: 960px;
+	height: 500px;
+	position: relative;
+	z-index: 5
+}
+
+.h2block {
+	position: relative;
+	z-index: 20;
+	width: 260px;
+	height: 300px;
+	background-color: #BEA17B;
+	float: left;
+	margin: 0 30px;
+	margin-top: -110px
+}
+
+.h2block:hover {
+	background-color: #004632;
+}
+.h2block h2 {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+
+.h2block img {
+	width: 260px;
+	height: 230px;
+}
+article {
+	clear: both;
+	
+}
+h1 {
+	color: #BEA17B;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+hr {
+	background-color: #BEA17B;
+	width: 400px;
+	height: 2px;
+	margin: 0;
+	border: 0px;
+}
+footer {
+	color: #ffffff;
+	background-color: black;
+	text-align: left;
+	padding: 10px 10px;
+	width: 100%;
+	margin-top: 20px;
+	float: left
+
+	
+}
+#basicInfo h1 {
+	font-family: sans-serif
+}
+.footerBlock {
+	float: left;
+	width: 192px;
+}
+footer h3 {
+	color: #BEA17B;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+footer p {
+	margin: 0;
+	font-size: 10px;
+	color: gainsboro
+}
+footer p a {
+	text-decoration: none;
+	color: gainsboro;
+}
+footer ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+footer ul li a {
+	text-decoration: none;
+	text-align: left;
+	font-size: 10px;
+	color: gainsboro;
+	margin: 0;
+}
+#historyArticle {
+	width: 600px;
+	float: left;
+	padding-right: 20px;
+}
+#historyArticle h2 {
+	color: #BEA17B;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+#historyArticle a {
+	text-decoration: none;
+	color: black;
+}
+#centerAndHallArticle {
+	width: 600px;
+	float: left;
+	padding-right: 20px;
+}
+.centerHeader {
+	color: #BEA17B;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+#volunteerInfo {
+	width: 600px;
+	float: left;
+	padding-right: 20px;
+	
+}
+.volunteerHeader {
+	color: #BEA17B;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+#volunteerInfo a {
+	text-decoration: none;
+	color: black;
+}
+article h2 {
+	font-size: 20px
+}
+
+aside {
+	width: 300px;
+	float: left;
+	background: #F6F2EB;
+	padding-left: 10px;
+	margin-top: 40px;
+	
+}
+.asideHeader{
+	font-size: 14px;
+	margin-bottom: 3px;
+	color: #BEA17B;
+	
+}
+aside h2 {
+	font-size: 13px;
+	font-weight: bold;
+}
+aside p {
+	font-size: 12px;
+}
+aside p a {
+	text-decoration: none;
+	color: black;
+}
+aside hr {
+	width: 170px;
+	height: 1px;
+	padding: 0px;
+	margin: 0px;
+
+}
+#contactForm {
+	width: 300px;
+	float: left;
+	
+}
+input, select {
+	display: block;
+	margin-bottom: 10px;
+}
+label, form p {
+	font-size: 13px;
+}
+#prefPhone, #prefEmail, #emailLabel, #phoneLabel {
+	float: left;
+	margin: 5px;
+}
+#myZip, #myCity {
+	width: 100px;
+}
+#myName, #myAddress, #myTel, #myEmail {
+	width: 250px;
+}
+#submit, #reset {
+	float: left;
+	margin: 10px;
+}
+#contactForm, #contact form  {
+	width: 300px;
+	float: left;
+	background: #F6F2EB;
+	padding-left: 10px;
+	margin-top: 40px;
+	
+}
+#contactForm hr {
+	width: 200px;
+	margin-bottom: 10px;
+}
+#contactForm h2 {
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #BEA17B;
+}
